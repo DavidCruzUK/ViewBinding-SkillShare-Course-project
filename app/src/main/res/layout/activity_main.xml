@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 
     <fragment
         android:id="@+id/fragment_bind"
-        android:name="com.lastreact.myapplication.MainContainerFragment"
+        android:name="com.lastreact.myapplication.main.MainContainerFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/text_view_demo"
@@ -26,7 +26,7 @@
 
     <fragment
         android:id="@+id/fragment_inflate"
-        android:name="com.lastreact.myapplication.MainFragment"
+        android:name="com.lastreact.myapplication.main.MainFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

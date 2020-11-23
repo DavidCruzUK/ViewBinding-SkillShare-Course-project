@@ -1,4 +1,4 @@
-package com.lastreact.myapplication
+package com.lastreact.myapplication.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
