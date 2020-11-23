@@ -13,6 +13,7 @@ class MainContainerFragment : BaseFragment<FragmentMainContainerBinding>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.textViewContainer.text = "Hi Fragment Container!"
+        binding.textViewOptional?.text = "This is only on portrait"
     }
 
     override fun createViewBinding(
