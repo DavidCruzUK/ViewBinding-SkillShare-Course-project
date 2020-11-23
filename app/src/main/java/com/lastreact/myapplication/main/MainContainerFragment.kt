@@ -1,25 +1,26 @@
 package com.lastreact.myapplication.main
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
-import androidx.fragment.app.Fragment
-import com.lastreact.myapplication.R
+import android.view.ViewGroup
+import com.lastreact.myapplication.databinding.FragmentMainBinding
 import com.lastreact.myapplication.databinding.FragmentMainContainerBinding
+import com.lastreact.myapplication.main.base.BaseFragment
 
-class MainContainerFragment: Fragment(R.layout.fragment_main_container) {
-
-    private var _binding: FragmentMainContainerBinding? = null
-    private val binding get() = _binding!!
+class MainContainerFragment : BaseFragment<FragmentMainContainerBinding>() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        _binding = FragmentMainContainerBinding.bind(view)
         binding.textViewContainer.text = "Hi Fragment Container!"
     }
 
-    override fun onDestroyView() {
-        _binding = null
-        super.onDestroyView()
-    }
+    override fun createViewBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ): FragmentMainContainerBinding =
+        FragmentMainContainerBinding.inflate(inflater, container, false)
+
+    override fun setupViews() = Unit
 
 }
