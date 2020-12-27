@@ -1,7 +1,11 @@
 # ViewBinding-Youtube-FreeCourse-project
 
 ### Youtube Free Course:
-* [https://www.youtube.com/watch?v=inAal54HmZk&list=PLts97hlLQqfMxqCoa8HYdbzrJTV9piynx](https://www.youtube.com/watch?v=inAal54HmZk&list=PLts97hlLQqfMxqCoa8HYdbzrJTV9piynx)
+* [https://www.youtube.com/playlist?list=PLts97hlLQqfMQLxHUVeTImYu5Q90UMbwd](https://www.youtube.com/playlist?list=PLts97hlLQqfMQLxHUVeTImYu5Q90UMbwd)
+### Udemy Free Course:
+* [https://www.udemy.com/course/how-to-use-android-view-binding-like-a-pro/?couponCode=BABE2527AA3C2BD0E245](https://www.udemy.com/course/how-to-use-android-view-binding-like-a-pro/?couponCode=BABE2527AA3C2BD0E245)
+### SkillShare Free Course:
+* [https://skl.sh/2KyoPEf](https://skl.sh/2KyoPEf)
 
 ### Description:
 * In this repo you will find all the stages commits I did made while I was recording this course. I hope it helps to better tp underdstand this topic.
